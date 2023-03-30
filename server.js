@@ -62,7 +62,7 @@ const files={
 const app=express();
 app.use(express.json());
 
-
+app.set("view engine","ejs");
 
 
 app.get('/upload',(req,res) =>
